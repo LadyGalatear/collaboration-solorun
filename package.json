@@ -1,0 +1,24 @@
+{
+  "name": "collaboration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onjamm/collaboration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onjamm/collaboration/issues"
+  },
+  "homepage": "https://github.com/onjamm/collaboration#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
