@@ -4,11 +4,14 @@ const app = express();
 
 const PORT = 5000;
 
+
+app.use(express.static('public'));
+
 //define a default route
 app.get('/', (req, res) => {
-    res.send('Hello, World!');
-})
+    res.sendFile(`${import.meta.dirname}/views/home.html`);
+});
 
 app.listen(PORT, () => {
-    console.log(`Seriver is running at http://localhost:${PORT}`);
+    console.log(`Server is running at http://localhost:${PORT}`);
 });
