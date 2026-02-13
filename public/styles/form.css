@@ -72,3 +72,15 @@ button:hover {
 button:active {
   transform: translateY(1px);
 }
+
+/* Confirmation div */
+.confirm {
+  margin: 2rem auto;
+}
+
+/* Error messages */
+.err {
+    color: darkred;
+    margin-bottom: 1.5rem;
+    display: none;
+}
