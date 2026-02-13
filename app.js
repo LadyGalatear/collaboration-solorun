@@ -4,7 +4,6 @@ const app = express();
 
 const PORT = 5000;
 
-
 app.use(express.static('public'));
 
 //define a default route
